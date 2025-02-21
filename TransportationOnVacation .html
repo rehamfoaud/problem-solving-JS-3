@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation On Vacation </title>
+</head>
+<body>
+    <script>
+        //Transportation On Vacation 
+        function transportation(number){
+            let price = 40 * number
+            if (number < 3){
+                return price 
+            }
+            else if (number >= 3){
+                return price  - 30
+            }
+            else if (number >= 7){
+                return price - 50
+            }
+           
+        }
+        document.write(transportation(6))
+    </script>
+</body>
+</html>

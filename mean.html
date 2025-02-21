@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get The Mean Of An Array </title>
+</head>
+<body>
+    <script>
+        //Get The Mean Of An Array 
+        //(2,2,2)=> 2
+
+        function mean(array){
+            let sum = 0 
+            let average =0  //average = sum /array.length 
+            for (let i=0 ; i < array.length ; i++){
+                 sum +=array[i]
+            }
+            return average = sum /array.length
+        }
+        document.write(mean([2,2,6])) // [(2+2+6) / 3]=> 10/3=3.33
+    </script>
+</body>
+</html>

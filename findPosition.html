@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Position</title>
+</head>
+<body>
+    <script>
+
+        // Find Position
+        function findPosition(letter){
+
+            return letter.charCodeAt(0) - 96
+            //charCodeAt() method returns the ASCII value of the character at the specified index in a string.
+            //96 is the ASCII value of 'a'
+            //97 is the ASCII value of 'b'
+            //65 is the ASCII value of 'A'
+        }
+        document.write(findPosition('r')) //18
+    </script>
+</body>
+</html>

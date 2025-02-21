@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opposites attract</title>
+</head>
+<body>
+    <script>
+        //Opposites attract
+        function oppositesAttract(num1 ,num2){
+            return (num1 % 2 === 0 && num2 % 2 !==0) || (num2 % 2 === 0 && num1 % 2 !== 0)
+
+        }
+        document.write(oppositesAttract(4,7)) // true -> 4 odd 7 even
+        document.write("<br>")
+        document.write(oppositesAttract(2,6)) // false -> 2 even 6 even
+        
+    </script>
+</body>
+</html>

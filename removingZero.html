@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Zeros For Heros</title>
+</head>
+<body>
+    <script>
+        // No Zeros For Heros
+        // pareInt( ...,10) => return string to number
+
+        function noZeros(number){
+
+            return parseInt(number.toString().replace(/0/g," "),10)
+        }
+        document.write(noZeros(5600) + "😊")
+    </script>
+</body>
+</html>
